@@ -1,0 +1,21 @@
+# Build
+build/
+.gradle/
+.kotlin/
+.externalNativeBuild
+.cxx
+/captures
+
+# IDE / OS
+*.iml
+/.idea
+.DS_Store
+
+# Local machine config
+/local.properties
+
+# Signing — never commit keys or passwords
+keystore.properties
+*.jks
+*.keystore
+KEYSTORE_BASE64.txt

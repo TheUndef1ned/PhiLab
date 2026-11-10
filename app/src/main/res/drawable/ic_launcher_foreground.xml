@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- PhiLab: Φ over a Gaussian bell curve. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- bell curve -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="@color/launcher_ring"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M28,72 C40,72 44,40 54,40 C64,40 68,72 80,72" />
+    <!-- Φ: stem -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="@color/launcher_glyph"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:pathData="M54,30 L54,78" />
+    <!-- Φ: bowl -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="@color/launcher_glyph"
+        android:strokeWidth="5"
+        android:pathData="M54,42 C43,42 39,47 39,54 C39,61 43,66 54,66 C65,66 69,61 69,54 C69,47 65,42 54,42 Z" />
+</vector>
